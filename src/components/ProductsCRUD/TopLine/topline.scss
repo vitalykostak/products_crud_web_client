@@ -1,0 +1,39 @@
+.top-line {
+  padding: 0.5rem 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 0.2rem solid #e3e3e3;
+  border-bottom: 0.2rem solid #e3e3e3;
+  box-shadow: 0 0.3rem 0.3rem #e3e3e3;
+
+  &__logo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:hover {
+      cursor: default;
+    }
+  }
+
+  &__logo-img {
+    height: 4rem;
+  }
+  &__logo-tagline {
+    margin-left: 1rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 700;
+    background-color: #333;
+    text-transform: uppercase;
+  }
+  &__button {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

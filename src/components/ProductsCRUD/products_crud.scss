@@ -1,0 +1,53 @@
+.products-crud {
+  &__topline-box {
+    margin-top: 2rem;
+  }
+
+  &__title {
+    margin: 2rem 0;
+  }
+
+  &__products-list-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__add-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  &__add-form-inner {
+    width: 15%;
+  }
+
+  .button {
+    padding: 1rem 0;
+    display: block;
+    width: 100%;
+  }
+}
+.circle {
+  border: 3px solid black;
+  border-left-color: blue;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  animation: 2s infinite circle;
+
+  @keyframes circle {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
